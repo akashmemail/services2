@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.links li {
+  display: flex;
+  color: white;
+  margin: 20px;
+}
+.links li:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  margin-left: 20px;
+}
+.nave h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: serif;
+  margin: 10px;
+}
+.dit {
+  text-transform: capitalize;
+  font-size: 30px;
+  width: 600px;
+  margin: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.lo {
+  font-size: 2rem;
+  width: 700px;
+  margin: 20px;
+  line-height: 1.8rem;
+  font-style: bold;
+  letter-spacing: 0.2rem;
+  word-spacing: 4px;
+  color: white;
+}
+.get {
+  margin: 20px;
+  padding: 10px 25px;
+  width: 200px;
+  border-radius: 99px;
+  border: 1rem;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.get:hover {
+  color: blue;
+}
+.this {
+  margin: 20px;
+  padding: 10px 25px;
+  width: 200px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  border-radius: 99px;
+  background-color: transparent;
+  color: white;
+  border: 30rem;
+  border: 2px solid;
+}
+.star {
+  color: yellow;
+  margin: 10px;
+}
+.have {
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+}
+.cnt-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: end;
+}
